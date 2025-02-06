@@ -10,16 +10,18 @@
 </script>
 
 <MenuBar />
-<div class="hero flex justify-center bg-base-200 min-h-screen pt-8 md:pt-16 lg:pt-0">
+  <div
+  class="hero min-h-screen">
+  <div class="hero-overlay blur-sm" style="background: no-repeat center; background-image: url(/images/background.png);"></div>
 <div class="hero-content lg:w-2/3 w-full min-h-screen">
     <div class="hero-content flex-col lg:flex-row-reverse">
       <img
         src="https://github.com/xergan.png"
         class="max-w-64 rounded-lg shadow-2xl"
         alt="Xergan's github pfp" />
-      <div>
-        <h1 class="text-4xl md:text-5xl font-bold">Hi, I'm Xergan!</h1>
-        <p class="py-6 text-wrap">
+      <div class="bg-transparent">
+        <h1 class="text-4xl md:text-5xl pb-3 h-auto">Hi, I'm <span class="font-bold bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent">Xergan</span>!</h1>
+        <p class="pt-3 pb-6">
             Self-taught developer with a strong background in game development, web development, and mobile app development.
         </p>
         <a class="btn btn-circle btn-outline" href="https://github.com/Xergan" aria-label="Github">
