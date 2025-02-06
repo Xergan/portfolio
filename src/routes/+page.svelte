@@ -5,14 +5,11 @@
 	import EmailIcon from "$lib/svgs/email_icon.svelte";
 	import GithubIcon from "$lib/svgs/github_icon.svelte";
 	import InstagramIcon from "$lib/svgs/instagram_icon.svelte";
-
-
 </script>
 
 <MenuBar />
-  <div
-  class="hero min-h-screen">
-  <div class="hero-overlay blur-sm" style="background: no-repeat center; background-image: url(/images/background.png);"></div>
+<div class="hero min-h-screen">
+<div class="hero-overlay blur-sm" style="background: no-repeat center; background-image: url(/images/background.png);"></div>
 <div class="hero-content lg:w-2/3 w-full min-h-screen">
     <div class="hero-content flex-col lg:flex-row-reverse">
       <img
