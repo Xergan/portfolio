@@ -9,7 +9,7 @@
 
 <MenuBar />
 <div class="hero min-h-screen" style="background-image: url(/images/background.png);">
-<div class="hero-overlay backdrop-blur-sm"></div>
+<div class="hero-overlay backdrop-blur-sm bg-base-300 bg-opacity-70"></div>
 <div class="hero-content lg:w-2/3 w-full min-h-screen">
     <div class="hero-content flex-col lg:flex-row-reverse">
       <img
@@ -18,7 +18,7 @@
         alt="Xergan's github pfp" />
       <div class="bg-transparent">
         <h1 class="text-4xl md:text-5xl pb-3 h-auto">Hi, I'm <span class="font-bold bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent">Xergan</span>!</h1>
-        <p class="pt-3 pb-6">
+        <p class="pt-3 pb-6 text-lg">
             Self-taught developer with a strong background in game development, web development, and mobile app development.
         </p>
         <a class="btn btn-circle btn-outline" href="https://github.com/Xergan" aria-label="Github">
