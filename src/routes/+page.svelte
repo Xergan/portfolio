@@ -17,10 +17,11 @@
         class="max-w-64 rounded-lg shadow-2xl"
         alt="Xergan's github pfp" />
       <div class="bg-transparent">
-        <h1 class="text-4xl md:text-5xl pb-3 h-auto">Hi, I'm <span class="font-bold bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent">Xergan</span>!</h1>
-        <p class="pt-3 pb-6 text-lg">
+        <h1 class="text-4xl md:text-5xl pb-3 h-auto text-center md:text-left">Hi, I'm <span class="font-bold bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent">Xergan</span>!</h1>
+        <p class="pt-3 pb-6 text-lg text-center md:text-left">
             Self-taught developer with a strong background in game development, web development, and mobile app development.
         </p>
+        <div class="flex gap-2 justify-center md:justify-start">
         <a class="btn btn-circle btn-outline" href="https://github.com/Xergan" aria-label="Github">
             <GithubIcon />
         </a>
@@ -36,6 +37,7 @@
         <a class="btn btn-circle btn-outline" href="mailto:contact@xergan.com" aria-label="Email">
             <EmailIcon />
         </a>
+      </div>
       </div>
     </div>
   </div>

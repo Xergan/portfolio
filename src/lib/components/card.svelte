@@ -20,12 +20,12 @@
         {/if}
       </h2>
       <p>{description}</p>
-      <div class="card-actions justify-start">
+      <div class="card-actions justify-start mb-2">
         {#each tags as tag}
           <div class="badge badge-outline">{tag}</div>
         {/each}
       </div>
-      <div class="card-actions justify-end">
+      <div class="card-actions justify-center">
         {#if itch}
         <a class="btn btn-secondary" href={itch}>
           <WebsitesIcon/>
