@@ -28,7 +28,7 @@
       <div class="card-actions justify-center">
         {#if itch}
         <a class="btn btn-secondary" href={itch}>
-          <WebsitesIcon/>
+          <ItchIcon/>
           Itch.io
         </a>
         {/if}
