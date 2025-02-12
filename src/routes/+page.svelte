@@ -25,19 +25,19 @@
             Self-taught developer with a strong background in game development, web development, and mobile app development.
         </p>
         <div class="flex gap-2 justify-center md:justify-start">
-        <a class="btn btn-circle btn-outline" href="https://github.com/Xergan" aria-label="Github">
+        <a class="btn btn-circle btn-outline" href="https://github.com/Xergan" target="_blank" aria-label="Github">
             <GithubIcon />
         </a>
-        <a class="btn btn-circle btn-outline" href="https://discordapp.com/users/767827683811655730" aria-label="Discord">
+        <a class="btn btn-circle btn-outline" href="https://discordapp.com/users/767827683811655730" target="_blank" aria-label="Discord">
             <DiscordIcon />
         </a>
-        <a class="btn btn-circle btn-outline" href="https://bsky.app/profile/xergan.com" aria-label="Bluesky">
+        <a class="btn btn-circle btn-outline" href="https://bsky.app/profile/xergan.com" target="_blank" aria-label="Bluesky">
             <BlueskyIcon />
         </a>
-        <a class="btn btn-circle btn-outline" href="https://instagram.com/xergan" aria-label="Instagram">
+        <a class="btn btn-circle btn-outline" href="https://instagram.com/xergan" target="_blank" aria-label="Instagram">
             <InstagramIcon />
         </a>
-        <a class="btn btn-circle btn-outline" href="mailto:contact@xergan.com" aria-label="Email">
+        <a class="btn btn-circle btn-outline" href="mailto:contact@xergan.com" target="_blank" aria-label="Email">
             <EmailIcon />
         </a>
       </div>

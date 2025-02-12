@@ -27,19 +27,19 @@
       </div>
       <div class="card-actions justify-center">
         {#if itch}
-        <a class="btn btn-secondary" href={itch}>
+        <a class="btn btn-secondary" href={itch} target="_blank">
           <ItchIcon/>
           Itch.io
         </a>
         {/if}
         {#if website}
-        <a class="btn btn-accent" href={website}>
+        <a class="btn btn-accent" href={website} target="_blank">
           <WebsitesIcon/>
           Website
         </a>
         {/if}
         {#if github}
-        <a class="btn btn-primary" href={github}>
+        <a class="btn btn-primary" href={github} target="_blank">
           <GithubIcon/>
           Github
         </a>
