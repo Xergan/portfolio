@@ -1,8 +1,9 @@
 <script lang="ts">
 	import GithubIcon from "$lib/svgs/github_icon.svelte";
 	import ItchIcon from "$lib/svgs/itch_icon.svelte";
+	import WebsitesIcon from "$lib/svgs/websites_icon.svelte";
 
-  let {title, description, image, alt, isNew = false, tags = []} = $props();
+  let {title, description, image, alt, isNew = false, tags = [],  github="", itch="", website=""} = $props();
 </script>
 
 <div class="card bg-base-100 w-96 shadow-xl">
@@ -25,14 +26,24 @@
         {/each}
       </div>
       <div class="card-actions justify-end">
-        <a class="btn btn-secondary" href="/">
-          <ItchIcon/>
+        {#if itch}
+        <a class="btn btn-secondary" href={itch}>
+          <WebsitesIcon/>
           Itch.io
         </a>
-        <a class="btn btn-primary" href="/">
+        {/if}
+        {#if website}
+        <a class="btn btn-accent" href={website}>
+          <WebsitesIcon/>
+          Website
+        </a>
+        {/if}
+        {#if github}
+        <a class="btn btn-primary" href={github}>
           <GithubIcon/>
           Github
         </a>
+        {/if}
       </div>
     </div>
 </div>

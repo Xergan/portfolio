@@ -21,12 +21,12 @@
       </a>
     </li>
     <li>
-      <a class="tooltip tooltip-bottom" data-tip="Websites" aria-label="Websites" href="/">
+      <a class="tooltip tooltip-bottom" data-tip="Websites" aria-label="Websites" href="/websites">
         <WebsitesIcon />
       </a>
     </li>
     <li>
-      <a class="tooltip tooltip-bottom" data-tip="Mobile Apps" aria-label="Mobile Apps" href="/">
+      <a class="tooltip tooltip-bottom" data-tip="Mobile Apps" aria-label="Mobile Apps" href="/apps">
         <MobileIcon />
       </a>
     </li>
