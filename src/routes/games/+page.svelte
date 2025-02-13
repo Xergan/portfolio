@@ -9,7 +9,7 @@
     <div class="h-full w-full backdrop-blur-sm bg-base-300 bg-opacity-70"></div>
 </div>
 <div class="pt-28 pb-4 w-full justify-center flex">
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 mx-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16">
         <Card 
             title="Drawing ✏️" 
             image="images/drawing.png" 
