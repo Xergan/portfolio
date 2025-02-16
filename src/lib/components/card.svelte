@@ -6,7 +6,7 @@
   let {title, description, image, alt, isNew = false, tags = [],  github="", itch="", website=""} = $props();
 </script>
 
-<div class="card bg-base-100 w-96 shadow-xl">
+<div class="card bg-base-100 w-96 max-w-full shadow-xl">
     <figure>
       <img
         src={image}
