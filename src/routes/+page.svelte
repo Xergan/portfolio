@@ -14,7 +14,7 @@
     <div class="hero-content flex-col lg:flex-row-reverse">
       <img
         src="https://github.com/xergan.png"
-        class="max-w-64 rounded-lg shadow-2xl"
+        class="max-w-64 rounded-lg shadow-2xl mix-blend-multiply"
         alt="Xergan's github pfp" />
       <div class="bg-transparent">
         <h1 class="text-4xl md:text-5xl pb-3 h-auto">Hi, I'm <span class="font-bold bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent">Xergan</span>!</h1>
