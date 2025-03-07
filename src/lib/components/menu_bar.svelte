@@ -7,7 +7,7 @@
 
 </script>
 
-<div class="w-full my-4 flex justify-center fixed z-10">
+<div class="w-full py-4 flex justify-center fixed z-10">
   <div class="relative mx-auto max-w-md rounded-box bg-gradient-to-r from-pink-500 to-blue-500 p-0.5 shadow-lg" style="backdrop-filter: blur(35px); filter:opacity(0.75)">
   <ul class="menu menu-horizontal bg-base-200 rounded-box" style="filter:opacity(0.75)">
     <li>
@@ -21,12 +21,12 @@
       </a>
     </li>
     <li>
-      <a class="tooltip tooltip-bottom" data-tip="Websites" aria-label="Websites" href="/">
+      <a class="tooltip tooltip-bottom" data-tip="Websites" aria-label="Websites" href="/websites">
         <WebsitesIcon />
       </a>
     </li>
     <li>
-      <a class="tooltip tooltip-bottom" data-tip="Mobile Apps" aria-label="Mobile Apps" href="/">
+      <a class="tooltip tooltip-bottom" data-tip="Mobile Apps" aria-label="Mobile Apps" href="/apps">
         <MobileIcon />
       </a>
     </li>
