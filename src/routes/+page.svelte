@@ -31,12 +31,6 @@
         <a class="btn btn-circle btn-outline" href="https://discordapp.com/users/767827683811655730" target="_blank" aria-label="Discord">
             <DiscordIcon />
         </a>
-        <a class="btn btn-circle btn-outline" href="https://bsky.app/profile/xergan.com" target="_blank" aria-label="Bluesky">
-            <BlueskyIcon />
-        </a>
-        <a class="btn btn-circle btn-outline" href="https://instagram.com/xergan" target="_blank" aria-label="Instagram">
-            <InstagramIcon />
-        </a>
         <a class="btn btn-circle btn-outline" href="mailto:contact@xergan.com" target="_blank" aria-label="Email">
             <EmailIcon />
         </a>
