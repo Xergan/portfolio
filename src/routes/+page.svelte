@@ -10,7 +10,7 @@
 <div class="fixed h-full w-full bg-cover bg-top" style="background-image: url(/images/background.png);">
   <div class="h-full w-full backdrop-blur-sm bg-base-300 bg-opacity-70"></div>
 </div>
-<div class="hero min-h-screen">
+<div class="hero min-h-screen pb-28">
 <div class="hero-content lg:w-2/3 w-full min-h-screen">
     <div class="hero-content flex-col lg:flex-row-reverse">
       <img
