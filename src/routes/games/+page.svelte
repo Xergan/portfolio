@@ -8,7 +8,7 @@
 <div class="fixed h-full w-full bg-cover bg-top" style="background-image: url(/images/background.png);">
     <div class="h-full w-full backdrop-blur-sm bg-base-300 bg-opacity-70"></div>
 </div>
-<div class="pb-4 w-full justify-center flex">
+<div class="pt-12 pb-28 w-full justify-center flex">
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16">
         <Card 
             title="Drawing ✏️" 
