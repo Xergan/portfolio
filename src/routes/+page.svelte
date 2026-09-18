@@ -7,8 +7,6 @@
 	import InstagramIcon from "$lib/svgs/instagram_icon.svelte";
 </script>
 
-<MenuBar />
-
 <div class="fixed h-full w-full bg-cover bg-top" style="background-image: url(/images/background.png);">
   <div class="h-full w-full backdrop-blur-sm bg-base-300 bg-opacity-70"></div>
 </div>
@@ -39,3 +37,5 @@
     </div>
   </div>
 </div>
+
+<MenuBar />
