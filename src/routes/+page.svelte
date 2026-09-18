@@ -1,10 +1,7 @@
 <script lang="ts">
 	import MenuBar from "$lib/components/menu_bar.svelte";
-	import BlueskyIcon from "$lib/svgs/bluesky_icon.svelte";
-	import DiscordIcon from "$lib/svgs/discord_icon.svelte";
 	import EmailIcon from "$lib/svgs/email_icon.svelte";
 	import GithubIcon from "$lib/svgs/github_icon.svelte";
-	import InstagramIcon from "$lib/svgs/instagram_icon.svelte";
 </script>
 
 <div class="fixed h-full w-full bg-cover bg-top" style="background-image: url(/images/background.png);">
@@ -26,10 +23,7 @@
         <a class="btn btn-circle btn-outline" href="https://github.com/Xergan" target="_blank" aria-label="Github">
             <GithubIcon />
         </a>
-        <a class="btn btn-circle btn-outline" href="https://discordapp.com/users/767827683811655730" target="_blank" aria-label="Discord">
-            <DiscordIcon />
-        </a>
-        <a class="btn btn-circle btn-outline" href="mailto:contact@xergan.com" target="_blank" aria-label="Email">
+        <a class="btn btn-circle btn-outline" href="mailto:xerganpro@gmail.com" target="_blank" aria-label="Email">
             <EmailIcon />
         </a>
       </div>
