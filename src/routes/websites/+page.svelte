@@ -27,7 +27,7 @@
             description="A terminal-style CV website with interactive commands!"
             tags={["✨ React", "⚡ Vite"]}
             github="https://github.com/Xergan/terminal-cv"
-            website="https://terminal.xergan.com"
+            website="https://terminal-xergans-projects.vercel.app/"
         />
     </div>
 </div>
